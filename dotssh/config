@@ -1,0 +1,17 @@
+Host personal-github.com
+    Hostname github.com
+    User git
+    IdentityFile ~/.ssh/personal-github.id_ed25519
+    IdentitiesOnly yes
+
+Host corp-gitlab.com
+    Hostname gitlab.com
+    User git
+    IdentitiesOnly yes
+    IdentityFile ~/.ssh/corp-gitlab.id_ed25519
+
+Host corp-github.com
+    Hostname github.com
+    User git
+    IdentityFile ~/.ssh/corp-github.id_ed25519
+    IdentitiesOnly yes
